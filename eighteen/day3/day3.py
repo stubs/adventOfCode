@@ -1,10 +1,8 @@
 #! /usr/bin/python
-from collections import Counter
-from itertools import chain
 
 data = open('day3.txt', 'r').read().splitlines()
 
-collisions,  fabric, ids = 0, dict(), set()
+collisions, fabric, ids = 0, dict(), set()
 
 for i in range(1000):
     fabric[i] = [[] for j in range(1000)]
