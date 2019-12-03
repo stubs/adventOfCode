@@ -1,4 +1,4 @@
-#! /usr/etc/python
+#! /usr/bin/env python
 
 DATA = """
 80590
