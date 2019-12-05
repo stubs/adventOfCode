@@ -109,5 +109,5 @@ def recur_fuel_finder(module):
     else:
         return (module // 3 - 2) + recur_fuel_finder(module // 3 - 2)
 
-print(f'Part 1: {sum([int(mod)//3 - 2 for mod in str.split(DATA)])}')
-print(f'Part 2: {sum([recur_fuel_finder(int(mod)) for mod in str.split(DATA)])}')
+print(f'Part 1: {sum([int(mod)//3 - 2 for mod in DATA.split()])}')
+print(f'Part 2: {sum([recur_fuel_finder(int(mod)) for mod in DATA.split()])}')
